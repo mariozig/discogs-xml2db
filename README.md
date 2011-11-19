@@ -35,6 +35,6 @@ Examples:
 
     discogsparser.py -n 200 -o couch --params http://127.0.0.1:5984/discogs -d 20111101
     discogsparser.py -o mongo -p mongodb://localhost,remote1/discogs discogs_20111101_artists.xml discogs_20111101_releases.xml
-    discogsparser.py -o pgsql -p "server=remote1 dbname=discogs user=postgres password=s3cret" discogs_20111101_artists.xml
+    discogsparser.py -o pgsql -p "host=remote1 dbname=discogs user=postgres password=s3cret" discogs_20111101_artists.xml
 
 
